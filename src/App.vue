@@ -1,15 +1,32 @@
-<template>
-  <div id="app">
-    <div class="reveal">
-      <div class="slides">
-        <section>Single Horizontal Slide</section>
-        <section>
-          <section>Vertical Slide 1</section>
-          <section>Vertical Slide 2</section>
-        </section>
-      </div>
-    </div>
-  </div>
+<template lang="pug">
+  #app
+    .reveal
+      .slides
+        Title
+        Slide2(:monthCount="6")
+        Slide2(:monthCount="2")
+        section(data-transition="fade")
+          section
+            img(src="./assets/01_overview_1.png")
+          section
+            img(src="./assets/time/time1.png")
+          section
+            img(src="./assets/time/time2.png")
+          section
+            img(src="./assets/time/time3.png")
+        section(data-transition="fade")
+          img(src="./assets/02_overview_2.png")
+        section(data-transition="fade")
+          img(src="./assets/03_tech.png")
+        section(data-transition="fade")
+          img(src="./assets/04_devs.png")
+        section
+          video(controls width="156" height="544")
+            source(src="./assets/ex/001.mp4" type="video/mp4")
+        section
+          img(src="./assets/ex/870_printer.png")
+        section
+          p https://github.com/infi-nl/Space-Invaders
 </template>
 
 <script>
@@ -28,7 +45,7 @@ export default {
 
 <style lang="scss">
 @import '~reveal.js/css/reveal.css';
-@import '~reveal.js/css/theme/white.css';
+@import '~reveal.js/css/theme/black.css';
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -38,5 +55,9 @@ export default {
   color: #2c3e50;
   /* margin-top: 60px; */
   height: 100vh;
+}
+
+.wyte {
+  background-color: white;
 }
 </style>
