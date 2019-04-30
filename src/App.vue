@@ -38,6 +38,12 @@
         section
           img(src="./assets/ex/930_dashboard.png")
         section
+          img(src="./assets/snippets/api.png")
+        section
+          img(src="./assets/snippets/api_snapsh.png")
+        section
+          img(src="./assets/snippets/api_snapshot_20.png")
+        section
           video(controls width="832" height="534")
             source(src="./assets/ex/970_small.mp4" type="video/mp4")
         section
