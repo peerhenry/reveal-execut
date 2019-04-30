@@ -24,7 +24,35 @@
           video(controls width="156" height="544")
             source(src="./assets/ex/001.mp4" type="video/mp4")
         section
-          img(src="./assets/ex/870_printer.png")
+          img(src="./assets/ex/880_image.png")
+        section
+          img(src="./assets/ex/890_proto.png")
+        section
+          img(src="./assets/ex/895_printer.png")
+        section
+          img(src="./assets/ex/900_first_prints.png")
+        section
+          img(src="./assets/ex/905_print_code.png")
+        section
+          img(src="./assets/ex/920_input.png")
+        section
+          img(src="./assets/ex/930_dashboard.png")
+        section
+          video(controls width="832" height="534")
+            source(src="./assets/ex/970_small.mp4" type="video/mp4")
+        section
+          img(src="./assets/snippets/p_01.png")
+        section
+          img(src="./assets/snippets/p_02.png")
+        section
+          img(src="./assets/ex/940_instructions.png" width="400" height="300")
+          img(src="./assets/ex/990_instr_print.jpg" width="400" height="300")
+        section
+          img(src="./assets/ex/2000_ready.jpg")
+        section
+          img(src="./assets/ex/2030_popular1.jpg")
+        section
+          img(src="./assets/ex/2040_popular2.jpg")
         section
           p https://github.com/infi-nl/Space-Invaders
 </template>
